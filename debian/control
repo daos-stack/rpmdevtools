@@ -1,0 +1,35 @@
+Source: rpmdevtools
+Section: devel
+Priority: optional
+Maintainer: Brian J. Murrell <brian.murrell@intel.com>
+Build-Depends: debhelper (>= 10),
+               dpkg-dev (>= 1.13.19),
+               help2man,
+               perl,
+               pkg-config,
+               python,
+               python-rpm
+Standards-Version: 4.1.3
+Homepage: https://pagure.io/rpmdevtools
+Vcs-Git: https://pagure.io/rpmdevtools
+Vcs-Browser: https://salsa.debian.org/hpc-team/libfabric
+
+Package: rpmdevtools
+Architecture: linux-any
+#Depends: ${misc:Depends}, ${shlibs:Depends}
+#Breaks: libfabric-dev (<<1.3.0-4)
+Description: This package contains scripts and (X)Emacs support files to aid in
+ development of RPM packages.
+ rpmdev-setuptree    Create RPM build tree within user's home directory
+ rpmdev-diff         Diff contents of two archives
+ rpmdev-newspec      Creates new .spec from template
+ rpmdev-rmdevelrpms  Find (and optionally remove) "development" RPMs
+ rpmdev-checksig     Check package signatures using alternate RPM keyring
+ rpminfo             Print information about executables and libraries
+ rpmdev-md5/sha*     Display checksums of all files in an archive file
+ rpmdev-vercmp       RPM version comparison checker
+ spectool            Expand and download sources and patches in specfiles
+ rpmdev-wipetree     Erase all files within dirs created by rpmdev-setuptree
+ rpmdev-extract      Extract various archives, "tar xvf" style
+ rpmdev-bumpspec     Bump revision in specfile
+ ...and many more.

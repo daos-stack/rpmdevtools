@@ -1,0 +1,6 @@
+rpmdevtools (8.10-10) unstable; urgency=medium
+  [ Brian J. Murrell ]
+  * Initial package from
+    https://src.fedoraproject.org/rpms/rpmdevtools/tree/f32/rpmdevtools.spec
+
+ -- Brian J. Murrell <brian.murrell@intel.com>  Tue, 11 Aug 2020 14:07:00 -0400

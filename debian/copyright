@@ -1,0 +1,12 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: rpmdevtools
+Upstream-Contact: Sean Hefty <sean.hefty@intel.com>
+Source: https://pagure.io/rpmdevtools
+
+Files: *
+Copyright:
+ Copyright (C) 1989, 1991 Free Software Foundation, Inc.,
+License: GNU GENERAL PUBLIC LICENSE
+
+Files: debian/*
+Copyright: 2021 Intel Corporation
