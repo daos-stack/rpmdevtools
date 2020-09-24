@@ -1,0 +1,2 @@
+version=3
+https://releases.pagure.org/rpmdevtools/ rpmdevtools-(\d\S*)\.tar\.(?:gz|bz2|xz)
